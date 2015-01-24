@@ -1,5 +1,9 @@
 This is the tool for creating cs246 test suites.
 
+It takes in the test case file and generate .in, .out, and .args file and testsuite.txt.
+ 
+If the third arg is provided, then it will also zip all the .in, .out, .args and testsuite.txt .
+
 To execute:
 
 	path/testCaseGen (file contains all test cases)  (test suite name)  (optional - zip file name)
