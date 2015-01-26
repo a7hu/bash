@@ -52,4 +52,5 @@ if [ $# -eq 3 ] ; then
 			zip $3 $line.args
 		fi	
 	done < $2
+	zip $3 $2
 fi
